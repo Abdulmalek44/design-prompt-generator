@@ -38,6 +38,7 @@ export const metadata: Metadata = {
 export const viewport: Viewport = {
   themeColor: [
     { media: "(prefers-color-scheme: light)", color: "#f8f8fc" },
+    
     { media: "(prefers-color-scheme: dark)", color: "#1a1a24" },
   ],
 };
@@ -63,7 +64,7 @@ export default function RootLayout({
             theme="system"
             position="bottom-left"
             richColors
-            
+
             toastOptions={{
               className:
                 "border rounded-xl shadow-md font-sans bg-background text-foreground border-border",
